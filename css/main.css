@@ -1,0 +1,17 @@
+section.container {
+	display: block;
+	height: auto;
+	width: 80%;
+	margin: 50px 10%;
+}
+section.container img {
+	display: inline-table;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #ccc;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	vertical-align: top;
+	cursor: pointer;
+}
