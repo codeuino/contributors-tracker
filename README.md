@@ -7,32 +7,21 @@ We Understand the feeling of been part of and publicly noticed, So contributors-
 ## Code style
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-A Standard code format will help others contributing to this project
-Example
-```Javascript
-jQuery.('.class').on('ready', function(event) {
-  event.preventDefault();
-  var output;
-  output = jQuery.(this).val();
-  console.log(output);
-});
-```
  
 ## Tech/framework used
 
 <b>Built with</b>
-- [jQuery](https://jquery.com)
-- [NodeJS](https://nodejs.org/en/)
+- [PHP](https://secure.php.net/)
 
 ## Features
 Display Icon of All Contributors
 
-## Code Example
-```javascript
-var token = "******************************";
-$.get("https://api.github.com/user?access_token="+token, function(data, status) {
-    console.log(data);
-});
+## QUICK Config
+You can check ``` module/list.php ``` file and change **Codeuino** to your Organization name
+```Php
+	$git = new Codeuino_GIT('Codeuino');
+	-----------------------------------
+	$git = new Codeuino_GIT('Org Name');
 ```
 
 ## Contribute
